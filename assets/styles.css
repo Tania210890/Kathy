@@ -1,0 +1,104 @@
+:root {
+  --mint: #49e2bc;
+  --orange: #f79427;
+  --black: #000000;
+  --white2: #f9f9fb;
+  --gray: #bdd0e1;
+  --gray2: #89a5bb;
+  --gray3: #485667;
+  --white: #ffffff;
+  --blue: #4990e2;
+  --gray4: #242526;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(72, 86, 103, 0.3), rgba(72, 86, 103, 0.3)), url(images/titlePhoto.jpeg);
+  background-blend-mode: multiply;
+  height: 455px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 12% 60px 12%;
+  box-sizing: border-box;
+}
+
+.hero__menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__menu img {
+  vertical-align: middle;
+}
+
+.hero__menu .button {
+  border-radius: 2px;
+  border: solid 2px var(--white);
+  font-size: 14px;
+  color: var(--white);
+  text-decoration: none;
+  padding: 8px 10px;
+
+}
+
+.hero__title {
+  text-align: center;
+}
+
+.hero__title h1 {
+  font-weight: 900;
+  font-size: 40px;
+  color: white;
+
+}
+
+.hero__title h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.text--orange {
+  color: var(--orange);
+}
+
+.galery {
+  text-align: center;
+  color: var(--gray4);
+  margin-top: 60px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
